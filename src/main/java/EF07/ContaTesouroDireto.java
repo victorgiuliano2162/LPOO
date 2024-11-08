@@ -17,7 +17,7 @@ public class ContaTesouroDireto extends Conta {
     }
 
     public void calcularJurosMensais() {
-        double juros = getSaldo() * 0.005;
+        double juros = getSaldo() * 0.001;
         this.setSaldo(juros + getSaldo());
     }
 }

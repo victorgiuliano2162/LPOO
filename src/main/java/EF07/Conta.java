@@ -29,6 +29,9 @@ public class Conta {
         this.setSaldo(juros + getSaldo());
     }
 
+    public void imprimirSaldo() {
+        System.out.println("O saldo da conta " + getClass().getSimpleName() + " é: "+ this.getSaldo());
+    }
 
 }
 
